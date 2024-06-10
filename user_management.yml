@@ -2,7 +2,7 @@
 - name: User Management Playbook
   hosts: all
   become: yes
-  gather_facts: no
+  gather_facts: yes
 
   tasks:
     - name: Ensure the groups exist
