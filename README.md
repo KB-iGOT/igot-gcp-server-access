@@ -51,11 +51,11 @@ This repository is used to manage users for Linux remote servers. Users can requ
 1. Fork this repository to your own GitHub account.
 2. Clone your fork to your local machine:
     ```sh
-    git clone https://github.com/your-username/repo-name.git
+    git clone https://github.com/srajasimman/igot-gcp-instances-user-management.git
     ```
 3. Navigate to the repository directory:
     ```sh
-    cd repo-name
+    cd igot-gcp-instances-user-management
     ```
 4. Open the `users/team.yml` file in a text editor.
 5. Add or update a user entry with your details:
