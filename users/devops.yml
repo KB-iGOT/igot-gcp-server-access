@@ -1,0 +1,26 @@
+---
+users:
+  swathir:
+    state: present
+    password: "$6$IKzP5u.GtF$R5iSQUgCkpkHS5U7A/fhNwBSuK4JJ/OwFhPtT/n37UOugBVaJNhLNj6EQH/ka/MT/vFiJxmPp9K5KSvKV5gP2."
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC763KKlbMtXvFB5Xo1TbLP8HBMjeBbVheEGc/JuvvFiB5QvLWRjKnkbpcplZcKdZYQ4ykUD+MjxoEEfPC1U0JK5h8h2vfnGYjyXuiYULneeVVfHdPk83HYxS4SbUxTETaQG0QgyiF3qEcgY8e4F8sP0uvu1o0pLqQ38HW6+p2m8wLOuw0E8r+r5TH1p148tjZWz5M155oTKJxY8GrF6eh8EhUFBOKv3m+uDs3VQxP4Le9aVCHxSQ5LQfNH1xIwTvVN02vxgiPXWSobxthuwI6gffzFoyIlbd2JVx/9mlreSaiK2CCYv/BqcDN60KdXBXpA2GX4c2GCKw50kknC7s+DSvG1fc8+/fMkxmB0sHrggc7rqr8RwZplRZ1otyuEYMrZR/JZgLA28jmV7Foq2zit1rwCIuF74XbZxS09iMFghwKRQMtZZGWGHu2VbiwUQpL6BZMO2kwyVmgbKP2uNgWdjohW0KGwrGFBwNYOjky7CHPWerxB3FA0ENayBzxjubc= swathi.reddy@tarento.com"
+
+  haridask:
+    state: present
+    password: "$6$yd8jXVxHKyhl5x1$9J3S2iSfO6zVHv8HWVJgYViXcsdoNQPT88vbWa28Ni8KPogcZ2NbakEmCQAq/EfQvncOJpnM2zsRaN0nm6q3s/"
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCX4CIFdFZ7iyR0RkFctEXewLTnYN1qNEK9CxEReGJJny+g+ryAbc8tVkRQeh+XGTFgcmpbiitTdM52U5iua0LzHocC8J2B+rUMW/0N43uRXTYcPEoliZZ1LG166hsydodePGAa6aYcya0Apd8t69zdUKdy7k1DnU0zsIGcywx304C9p/byOxA1ULs7FW1PmiKOosDkJn3RxPnhF//5cnRP0BB7i3CVdm6yszP8RStBZV0q4WMRfTCOh9ARc+LZDP1wZWOfXLrHZwRPr65eszhP12b2UF015WjUVvmq4d6wxuxBfzuzewBwiU5iufRc6LUyRThzyegRzkiFruh6pNpp"
+
+  kesavp:
+    state: present
+    password: "$6$bJl6UT4Ks1$.yMLqkHEYI/YnF4S2X0Q79MwcTdl.4RXk8BhmDFgn.yHPrLfDVDALTRndF4x4MXlr8ayjcXpgDERSJtTYNEiI1"
+    ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINLx0qseh/Wbkv4JIcXvircCg1eqU1obFkoV3WfUGdED keshavprasad@Keshavs-MacBook-Air.local"
+
+  rajeshr:
+    state: present
+    password: "$6$JSAViNy0yFkgzCd2$MVaLk4iW6/dATPtAZQy.dfJBeurM5rFcXB0X/BF5S3ZrKpQNLFM3ZtTryO0n8IUVQiSuh.wS8yGXOelr03atV0"
+    ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBd6VAp7P7rRVU5wv+RdaAf1OFKhBKpHX6ybFnGb7sGs rajesh@work"
+
+  sivaprakashr:
+    state: present
+    password: "$6$0mOYVGYrF7SiyYEL$dYvgNeqmvt16NyYsX7M7fkWibRsW7oDjvzmlTrmfRQ/ap0U20T50E1B8396FjoyiOxf.kipQZ9VU7.pj.eUDc."
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDxNoxpM9xu9rwfxs1j2FuNXo0YvYxK2s1szX2G7SGBiYGqYTgBpu8D6sUr9Xb1FKy50jYY9vA45jOzEVXl/jVwShaWaLeZ74Xd46nIppaRdAdv/edlywFktjQ/VNmdr/PA7Iy7/g4bunX+a6DDgHiWI6nV6HBzCywOPAp/Sua9eBYdvAhUsba0+FtHrUWcwSV99mUQM9FS4HhpHFrhyd8fu4nd/JOR6dq/A9ErSj/HxmAqDXYMtWQ8WUYJ6efFeNmhdOwRViLYfz3JuX8XNKrCZE8xxDTTgfGP2Xy6ddDXTfMuZqYTzwtOg8UdzZfZSXDWQ8eev16N7gLLgZdhBT7 sivaprakash@Sivaprakash"

@@ -1,0 +1,11 @@
+[all]
+kb-dev-igotdb-p1 ansible_host=10.175.2.35 ansible_port=9822
+kb-dev-coredb-p1 ansible_host=10.175.2.36 ansible_port=9822
+kb-dev-kp-p1 ansible_host=10.175.2.37 ansible_port=9822
+kb-dev-ser-p3 ansible_host=10.175.2.38 ansible_port=9822
+kb-dev-ser-p1 ansible_host=10.175.2.39 ansible_port=9822
+kb-dev-ser-p2 ansible_host=10.175.2.40 ansible_port=9822
+kb-dev-druid-p1 ansible_host=10.175.2.41 ansible_port=9822
+kb-dev-jenkin-p1 ansible_host=10.175.2.42 ansible_port=9822
+kb-dev-dp-p1 ansible_host=10.175.2.55 ansible_port=9822
+kb-dev-jumphost-p1 ansible_host=10.175.2.56 ansible_port=9822
