@@ -61,7 +61,7 @@ This repository is used to manage users for Linux remote servers. Users can requ
 5. Add or update a user entry with your details:
     ```yaml
     users:
-      username:
+      username: # your username
         state: present
         password: "$6$/BprRrv6N2" # replace with your generated password hash
         ssh_public_key: "ssh-rsa AAAAB...your_key... your_email@example.com"
