@@ -1,11 +1,11 @@
 [all]
-kb-qa-jumphost-p1 ansible_host=10.175.3.25 ansible_port=9822
-kb-qa-igotdb-p1 ansible_host=10.175.3.16 ansible_port=9822
-kb-qa-coredb-p1 ansible_host=10.175.3.17 ansible_port=9822
-kb-qa-kp-p1 ansible_host=10.175.3.18 ansible_port=9822
-kb-qa-ser-p3 ansible_host=10.175.3.19 ansible_port=9822
-kb-qa-ser-p1 ansible_host=10.175.3.20 ansible_port=9822
-kb-qa-ser-p2 ansible_host=10.175.3.21 ansible_port=9822
-kb-qa-druid-p1 ansible_host=10.175.3.22 ansible_port=9822
-kb-qa-dp-p1 ansible_host=10.175.3.24 ansible_port=9822
-kb-qa-jenkins-p1 ansible_host=10.175.3.23 ansible_port=9822
+kb-qa-jumphost-p1 ansible_host=10.175.3.45 ansible_port=9822
+kb-qa-igotdb-p1 ansible_host=10.175.3.36 ansible_port=9822
+kb-qa-coredb-p1 ansible_host=10.175.3.37 ansible_port=9822
+kb-qa-kp-p1 ansible_host=10.175.3.38 ansible_port=9822
+kb-qa-ser-p3 ansible_host=10.175.3.39 ansible_port=9822
+kb-qa-ser-p1 ansible_host=10.175.3.40 ansible_port=9822
+kb-qa-ser-p2 ansible_host=10.175.3.41 ansible_port=9822
+kb-qa-druid-p1 ansible_host=10.175.3.42 ansible_port=9822
+kb-qa-dp-p1 ansible_host=10.175.3.44 ansible_port=9822
+kb-qa-jenkins-p1 ansible_host=10.175.3.43 ansible_port=9822
