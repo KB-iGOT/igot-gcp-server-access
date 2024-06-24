@@ -8,4 +8,3 @@ kb-qa-ser-p1 ansible_host=10.175.3.40 ansible_port=9822
 kb-qa-ser-p2 ansible_host=10.175.3.41 ansible_port=9822
 kb-qa-druid-p1 ansible_host=10.175.3.42 ansible_port=9822
 kb-qa-dp-p1 ansible_host=10.175.3.44 ansible_port=9822
-kb-qa-jenkins-p1 ansible_host=10.175.3.43 ansible_port=9822
