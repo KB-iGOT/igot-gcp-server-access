@@ -15,7 +15,7 @@
     groups: "sudo"
     append: true
     state: "{{ item.value.state | default('present') }}"
-  when: "{{ item.value.sudo | default(false) }}"
+  when: item.value.sudo | default(false)
   loop: "{{ users | dict2items }}"
 
 - name: Add users into sudoers for no password
@@ -25,7 +25,7 @@
     mode: 0440
     owner: root
     group: root
-  when: "{{ item.value.sudo_no_password | default(false) }}"
+  when: item.value.sudo_no_password | default(false)
   loop: "{{ users | dict2items }}"
 
 - name: Add ssh public key
