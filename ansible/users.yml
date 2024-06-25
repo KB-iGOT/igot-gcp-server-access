@@ -2,8 +2,6 @@
   hosts: all
   ignore_unreachable: true
   become: true
-  vars_files:
-    - ../variables/ansible/env/users.yml
   roles:
     - role: users
       tags: users
