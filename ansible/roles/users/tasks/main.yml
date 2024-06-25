@@ -1,0 +1,37 @@
+---
+- name: Create/Update Users
+  ansible.builtin.user:
+    name: "{{ item.key }}"
+    password: "{{ item.value.password | default(omit) }}"
+    create_home: true
+    home: "/home/{{ item.key }}"
+    shell: /bin/bash
+    state: "{{ item.value.state | default('present') }}"
+  loop: "{{ users | dict2items }}"
+
+- name: Add into sudo group
+  ansible.builtin.user:
+    name: "{{ item.key }}"
+    groups: "sudo"
+    append: true
+    state: "{{ item.value.state | default('present') }}"
+  when: item.value.sudo | default(false)
+  loop: "{{ users | dict2items }}"
+
+- name: Add users into sudoers for no password
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/{{ item.key }}
+    content: "{{ item.key }} ALL=(ALL) NOPASSWD:ALL"
+    mode: 0440
+    owner: root
+    group: root
+  when: item.value.sudo_no_password | default(false)
+  loop: "{{ users | dict2items }}"
+
+- name: Add ssh public key
+  ansible.posix.authorized_key:
+    user: "{{ item.key }}"
+    key: "{{ item.value.ssh_public_key | default(omit) }}"
+    manage_dir: true
+    state: present
+  loop: "{{ users | dict2items }}"

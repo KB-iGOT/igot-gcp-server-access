@@ -2,53 +2,60 @@
 users:
   mathew:
     state: present
+    sudo: true
     password: "$6$/BprRrv6N2HSC8rm$kx3xzD9QPDJozMSC4/NlMEfiYy3BM1zApFc2BcABQhi/gZah8xRpDDEZltw3iYHLcqzqTey1CYU9TNNobvedx1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCaRzSDehpRv4yEpwpCD74lQwjop0czuH9E+upDSb+wiUjvpFg33F2ZqnutiYBtBjmig/mNAIDI3yWfZEj/icJQGRj/krBm3+w5qV4RJc5GqGe+vuNti0otXgIll6rHZomWWpCFE/vjHuFZjAJMO0cCmxcjpOdmlAgknQi1ZDzIc83tzyucc9d/hCu9sK7Y5fNv9NT/NjNC6dD8Deekr+ocTPQGifXQCcyx5pYcEM0XP3OtmqQ3PHj+qEBhKAb08b+adRTEWSY9rf8yJrlKE0HM/RUv4uq1a4/eKlPss0ORXjkx0oZIthM6M5DNODAI3DBBTMzA7zfr+YSHvbFu7tnUgEviJJxJ8WDFkGcm6HXDnMHw4mBIlsH9fPcdgcFQ5aqiO+y+bf8xatvDg/P7YYuoC6JeQNMa2aV+9GYuKecjCSQrYMZb+PQDJvtOyyRzGQcPW/Em6dcakKY5otE8IK0GmRVu1vLBHQJtvVh1Yh6QqWbOkR+X0pKhC/KW6FTUd8c= mathewjpallan@gmail.com"
 
   karthikeyanr:
     state: present
+    sudo: true
     password: "$6$Sao/oKiSFzS9$5ezhn4HOT6ruT1E0nked2SN9aQRRgvFLiVYkP0qU2skPC4vGKTyoDRUIja.UcM6XfK2pbgCAwiAD02cziOejF/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCc/EJ4pZMkFCVMsbG4NAEBasG2AZw/iCtRS1hRgLID+MAn/vZF1xJOJq5pKyUIdQ1Irnl+rkj6ikBP/MGyyZqEuTk7RBp5j8K2Qk2k9Up+41l0cIYiA791B74R+o0cjIevkIXN77u1D+BvqBkH6dU2SQI/X6jORh/LTlc6V9FtqmSxwoAQfZWTWH1Xni7aTs1PH06zw/+w/6G/FHQw/H8eUIGDjvZIFcF5yQTtqxpycK3lG4wn6TAzWyAS5ZdvMw/mVTpEc6AO4PuurrK201yPuPFFdDaLfMUepr5spG7P2TRlKnYlDdCL6I6m+8Qms5WQyp0JMH8oxF5a1mvzjO+8q4FlYvOzC5KhAT3MddEI1m3OEelNfIjkSktLYHgPPsi6vFPp57Zh4GrnL3AbJ6cqRLdsNGHrpQzgFP5CuSiWYK876QPmZNySA7yw6vNN+noVFRr3jsnzDdLiUNm+gdUbt0C/TDByrJARhN9TBbtyn2B+bE2Zu2lNjT0X/Q/hSIM= karthik@TI-LAP-778"
 
   maheshr:
     state: present
+    sudo: true
     password: "$6$u/dRokQPhA9o2V.$hTVMQKEQPRUraOcbfMNFk9hRcBbXevyxSVrxGJ1j2s0F.cwm8Fhi.fJ50y4BpOz76uZ4mm7DFaudAqKABOodb."
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDC+BqgUa4oijPkOib+uYJYmYh3tDDKTffoRcks22umKq0Cl9eq89i1R12PeCPvk7ti9WbYBMw55INtOYAgHEVSAzI5b2topMR9m0NuWBNu7J/Mn7iaOkwG9ZyF+wh3RmSoNU9HQVSsJt0yQNPkPKWHVL35QqWsktDoA1FdEN6psoCutxK4VatiEaBOEKwR8ZudjW/qEhHcuXPPp5FF5kdFuzavE+FCVwtxqD+FH/b1PW+79vJIVJCVmOzL7fi7Xul4KZ1AgDMc0ByJ+FeAwKxRYepJfW7Mrz7kOZsQrx2dExz0qfNpeBimQbDGjatelaQgfnFzzBC7lJG3uuRZBul6uOL11c1aA9KvKc0yChtLYjC7OvM1Flw9Hf0X0vzLFAygTnYQVpiIMt2UuQVSHzNlZ9Bastw6cg6RLRTqfppf72nZmCp0685vMMCcIeuSnv7+6R+NdCkG5M+9tfqkje043HYXcHJmDq2AXrNay7AgBV+ot/h4gblYYnPXe7DT62E= maheshrv@TI-LAP-800"
 
   manishk:
     state: present
+    sudo: true
     password: "$6$P54oV1jHkQIlyLzp$DBzxdRpSd/kHOHaZqTLq4bpqgpKLDGSn4Udw6px4GttCvx2gjqyVZvNBlIaWIsnP9Ejs5nKYit7XMuqdEru.O/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCHDlyZ7tezqf+1o2jSjYbJLUEYcuAYJYBDhXum4XccNALZyNWwil8Kmw/qKiZtQ+f556wkEPJOZaRMTW7AtA9NiVoRA0CNcQqANbSaUsoz08qPNrWhVdNj81RmYh/L0Og/ZqLnRsIEk6J174FjPx0T0Y5zCrZKNX5zb5CRQXxsPfe2oh+nmGSXYBZ8YLTaru7IyO3EX26ihpf3AbhQf5eYE+h9zR0OiOX8dbx3cK+ie8Tu4eP7A8k10RhFbQoDgvzN4j9nZZ6iI3baBm58+RWc6UlOhd+u4NDrz8t2Ajh+pPuOHRMV2VmgStSpj6hZi0HHESE0tJVEWxDsR9W2gr5L"
 
   pradeepr:
     state: present
+    sudo: true
     password: "$6$P54oV1jHkQIlyLzp$DBzxdRpSd/kHOHaZqTLq4bpqgpKLDGSn4Udw6px4GttCvx2gjqyVZvNBlIaWIsnP9Ejs5nKYit7XMuqdEru.O/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChDhpERgRSUDYcpvSihgg/DQwmdpA6RMSPV2YbUvg9kNc2mtpY6pN0lQaVHtRjaOf7zxR2f6Ty2OdrayNTrA1MbDHSbqVHyjCYgSXgPtKHFnpKeWV6oUP7zH7P6Q63i6BAW2P4XifctZUn6La4SL0kpIZGAXakpg7pGrzzupvpjVeRPEghx/RPk3+LfYR1vsEZRNoMIcsrG6mIN/gKZjNPeP4h0YA89eHigWBWfELBlmAKpwI1aB/+35z3AEBSM8RIrKP5wfdxBX2Ye679zpujyVqT0dRTqyjwTM+t8XxaCecQ/AGBe5gE5R50ZEraz3HnlxWghDFF603OTEXNs9Uj"
 
   sahilc:
     state: present
+    sudo: true
     password: "$6$GwpxKKK39.YGbsBB$Xtgk0cf/fMhYCIEHCB0xmmhdVJSGY/p8WnM7njrC1aZL377k7f5GCG0TuIRii2xVP/Wtc3lDFKxDZFZ.sXhkF1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCFV8kYmbfi2Vf5Z1GQO9W6zlMXyx2CV1rHoqc8QMu4/iPf7fpK1PUg6hKKt5uioDcNbK/dGEC42cbGfetGZBjgtzlA3C2a4T6zbyFQvp5c9TqB66PUmnOeRXs/EL7TPH5ThCQbkNinVdW1ZCuPwTaa+k9fGoUD9x+/ZBedTqIBtKrG9jUtIKT5OLXetqQXHbOjjvx8WahKpu6e/dPzNDip4YVk/PqU0IBbon0clA8L/Ngr6Jevs7cZ0Mj3iNKZ+2qycVhepdfjNs3roEDwkOakN9CtXXYajkd8cn9/vqwjet/4CcwHBN46tlG9Dy2AMvCWNOZAj6m9wtvjwgS7KIkh sahil"
 
   sharathp:
     state: present
+    sudo: true
     password: "$6$P54oV1jHkQIlyLzp$DBzxdRpSd/kHOHaZqTLq4bpqgpKLDGSn4Udw6px4GttCvx2gjqyVZvNBlIaWIsnP9Ejs5nKYit7XMuqdEru.O/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcmW1riAwDwQkDeFx+65DXp9ADaW4IgchmAx6fJy4J9Xd0v1XrKZ83NRN4ypV76p4XWf3GskJI3MEzFdxPSEK/sr+ISrrkGlrbyVsvGHsUJKW0zb4/rrb+2+Qe8OYRd/twdhNTgCzGZJ+U4Tx36eR6bZHrLocoozM3B3QiqjYGBzzaKu/ttysEXCxRiXF8HviOPejpcNzCqROmqoxpW9l9Odfhq6STNnudYImiF52GZjsrLyL6XHh6pjaayKs1qT/4aE8DcVa9/zT7s5Zik5eSGY7Bv0HUvthDAlR1HDtPZgxs3w1B8OkiYR+xnqwmDH5rGx+VoNlGs3UXaWaupRpd"
 
   shishirs:
     state: present
-    sudo: yes
+    sudo: true
     password: "$6$n0TYUc5a0YCudRT$byW1T3BM.jRO7q9agLg9aoXolVO6tuQADyRmyQcjj1UOfqjZHwIiENfDmQjH0XfW04GWS0cY6LneT8uhC9E7j."
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCuS8soDXYj7GUQulxkfm6R9qJsuis43Qo/j5/f5Ok4GMQS+jUD//ipQcUqF/RyzcCqSy7IPQ7xkXP9Igsqq+ymNeEUot+yj5ezRufUNkQ12/INKPxFXiOnTfT1uX6EXNge23CtFCLi3wYsS4KdNAAT3QZ4AJGwL3xWCn8lLmoIpZtmEb+hsBksUoLj6FfT63oGj2B8dLZv5gwmEYDb2lAQTvGtEZsSq23KgGMln8rFFPIAL9g99iQa/vqNZRlHk/JfHTcHKEHj6Si4qjiixVxCTu45d7cBS0D4rmU8KTfkagH27MaaPX9da8JRYqdFH5T7FyEnZY1StvrZfrCbBdIDockd/mCTSSQlW/i2pEBISUSvivRwnP326dwkHl58lo54A0lUdz8p8NZTqTbJ+MXy+M+wXdsKMjMSCDI1HFw5fTZ6BQuMcvphy/roRmeL1ijXaDE2VWT74/WUNcM6/NCn4Q+S6ha4BPfLCMOuyEiLcP9xj09MLZ/u21dSk7qhanqfiQS1eGFbdRBnmkipf/xcZduuW/+EYNOZQM88ywZ+3WiG2TjPZ0VccRMiMxxDTXK6G6QXaNSQwF5jqvM2cOtnQKblS6gDDnSmBJEr4U2YtTSw4JDKasPpF6kOBPyJwCg7zhYZBzYak8hy3eBNQb1ZEVGPX2CramlIxhL0zujYcQ== shishir.suman@tarento.com"
 
   varsham:
     state: present
-    sudo: yes
+    sudo: true
     password: "$6$PW.An5wHWP3$oL6u3aK6e5gEXjxHGG4D1.dC08WQl/FpPatbSAZzIqfL6o4dEkVJxWZ6OPO6QgcKQFpZrLqFOROCFINmzj9VW1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSYmxxzpf0qo11ijGam5zVQ7cCKykLfXLDP8E+20/GrnHqW7VX9UdKPTI91qLPgzESR5GtAE4XcflHhPB2TZHpqDTCj7fyCo6wAP62izDNdTQqsRbvbEnnNnsB/Lxp3JRcVbEn/OmfNQDGY2ssGes/GxOL8fTjOcWbEuDkxN1MExVThl1XJpagpHhQ9toK/EZz2Q71L7GoROFaXr/snXScV8o1zbUTpBT/F7s5z1zmv1aqVkSjZeTtB0982MPiV788eZbt8Ex2XShdL8/n2Ex3nczjzqXsO/5XDTMmcdfpgRssOlE6oT/A9Kcp5MjPejqqB8xsflsYrADiRDNBSfAkkNGbEiygTOKfOIpF6ZEjSiuYmlKu/Of9vhrkJn7l9PENUaL30nbUK5CO7OCFMH0iLLMQrrNjnJNq00bg/CUT4JlOk/9Z5s9kYM2vLWUV6wVQ7FXJA+pFmutm8PzRHc7eq5uDs3NdizWOSnApwmzc0/NABvAcWcP4lAfa6HtvDUGJqi9OBfshdVeUB4uSijnULcBGzD43EHpqL0lQQzK8UN/jScvZ3Ty1v5lRJm+EeqeFvp9qEehJhiL/53xVmvOgylr72MeIg0ZqalbqkeaEnSI8aGIefjs37hyKYIXZrgm74umjqCUeZev7oZBM3a6NKksN9i9w8VwT0vfoq0D7Vw== varsha.mahuli@tarento.com"
 
   fathimas:
     state: present
-    sudo: yes
+    sudo: true
     password: "$6$t.k1QaJ6488O0B$xAgxbrSNvM0oCuTYBXVBJhkep0p2AjpFAQhKcygSrFywOgZyyIv2rMBzH9TxtrDFtxOzjlkmglfymLC448IMM."
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC34/auLpuodtsoEYlezfXZWIlw2VmmERA/qz6Tom8qDvDUT3r7zCvJoQPZQOP01gvH8Vx6mRKTXxAZCs0VFcJfV9ut4GwON5qa7TW+7m7igFM+LyGq0ju8vUB/KA6w5AvFawY/GiT7DKGuNikpTfz8cKRro1vFt9wXLMA5+/PIQIUjjlZe68SArR9pOp2/AqpXkEwco9jXGq3iYvBRMPubHtILHRPaWMLvUO00CIkRDY27NI9lrTHnLFUN4wlXNOiEu0ce2yMVpUfaRZvOiGvzL5Ybr8Y4Tq3ia7RuDK7w13cmy96An174iVuAgLUoy0NFzoG0TGSHvEB/9fAGICaEopbqj6XTjMGkL2I1aAxHzzd2LP1WJtMvsWRmKlvlMfI8KwbxizkAKnkyPbloJ587Iwc/GN/5H7VVHwrjOlL1Oy3JmNmi/iairE6kBCyTxjCNc5mHTyuR2V8xWWqEuIvB0nsqmyeXr0K6Dxxqip2Vi7pBZcSnYvWhaG7LJBY67D8R58+gxdW08pRCKdNdst62xpOfBR0zEsfFCwluONchQ4kZy89sI12Z5lURTamVHuQUlpbdl8UkI4oP6W/+UP8EYNwyEYC6AkdBH/XWj9/YZL3n0r2xdRxdI/4ZEWdNNe9lkEQu2xxZZiy9BztFcWRF4dG+li7iDHJ/LD96HF5igQ== fathima.sherin@tarento.com"
