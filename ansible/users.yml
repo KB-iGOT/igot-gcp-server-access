@@ -1,4 +1,4 @@
-- name: Create/Update users
+- name: Create / Update users
   hosts: all
   ignore_unreachable: true
   become: true
