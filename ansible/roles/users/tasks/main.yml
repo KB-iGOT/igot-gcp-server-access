@@ -12,7 +12,7 @@
 - name: Add into sudo group
   ansible.builtin.user:
     name: "{{ item.key }}"
-    groups: sudo
+    groups: "sudo"
     append: true
     state: "{{ item.value.state | default('present') }}"
   when: "{{ item.value.sudo | default(false) }}"
