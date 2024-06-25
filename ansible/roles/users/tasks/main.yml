@@ -26,7 +26,7 @@
     mode: 0440
     owner: root
     group: root
-  when: {{ item.value.sudo_no_password | default(false) }}
+  when: "{{ item.value.sudo_no_password | default(false) }}"
   loop: "{{ users | dict2items }}"
 
 - name: Add ssh public key
