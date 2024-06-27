@@ -9,7 +9,7 @@ users:
   karthikeyanr:
     state: present
     sudo: true
-    password: "$6$Sao/oKiSFzS9$5ezhn4HOT6ruT1E0nked2SN9aQRRgvFLiVYkP0qU2skPC4vGKTyoDRUIja.UcM6XfK2pbgCAwiAD02cziOejF/"
+    password: "$6$nfy87Jm/$gZQClijoVDadPGKQfbYX3Ew8jyoMBxEcPuKO6IgjtoVpmV1C.kUwyrBdBxVeU25O0ZSS7k4k4MmTWf7vgPS2p0"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCc/EJ4pZMkFCVMsbG4NAEBasG2AZw/iCtRS1hRgLID+MAn/vZF1xJOJq5pKyUIdQ1Irnl+rkj6ikBP/MGyyZqEuTk7RBp5j8K2Qk2k9Up+41l0cIYiA791B74R+o0cjIevkIXN77u1D+BvqBkH6dU2SQI/X6jORh/LTlc6V9FtqmSxwoAQfZWTWH1Xni7aTs1PH06zw/+w/6G/FHQw/H8eUIGDjvZIFcF5yQTtqxpycK3lG4wn6TAzWyAS5ZdvMw/mVTpEc6AO4PuurrK201yPuPFFdDaLfMUepr5spG7P2TRlKnYlDdCL6I6m+8Qms5WQyp0JMH8oxF5a1mvzjO+8q4FlYvOzC5KhAT3MddEI1m3OEelNfIjkSktLYHgPPsi6vFPp57Zh4GrnL3AbJ6cqRLdsNGHrpQzgFP5CuSiWYK876QPmZNySA7yw6vNN+noVFRr3jsnzDdLiUNm+gdUbt0C/TDByrJARhN9TBbtyn2B+bE2Zu2lNjT0X/Q/hSIM= karthik@TI-LAP-778"
 
   maheshr:
