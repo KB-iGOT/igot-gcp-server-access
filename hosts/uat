@@ -1,4 +1,5 @@
 [all]
+kb-uat-jumphost-p1 ansible_host=10.175.4.7 ansible_port=9822
 kb-uat-jenkins-p1 ansible_host=10.175.4.8 ansible_port=9822
 kb-uat-db-cass-p1 ansible_host=10.175.4.9 ansible_port=9822
 kb-uat-db-cass-p2 ansible_host=10.175.4.10 ansible_port=9822
