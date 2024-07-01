@@ -18,6 +18,14 @@
   when: item.value.sudo | default(false)
   loop: "{{ users | dict2items }}"
 
+- name: Add ssh public key
+  ansible.posix.authorized_key:
+    user: "{{ item.key }}"
+    key: "{{ item.value.ssh_public_key | default(omit) }}"
+    manage_dir: true
+    state: present
+  loop: "{{ users | dict2items }}"
+
 - name: Add users into sudoers for no password
   ansible.builtin.copy:
     dest: /etc/sudoers.d/{{ item.key }}
@@ -28,10 +36,9 @@
   when: item.value.sudo_no_password | default(false)
   loop: "{{ users | dict2items }}"
 
-- name: Add ssh public key
-  ansible.posix.authorized_key:
-    user: "{{ item.key }}"
-    key: "{{ item.value.ssh_public_key | default(omit) }}"
-    manage_dir: true
-    state: present
+- name: Remove users from sudoers for no password
+  ansible.builtin.file:
+    path: /etc/sudoers.d/{{ item.key }}
+    state: absent
+  when: not item.value.sudo_no_password or not item.value.state == 'present'
   loop: "{{ users | dict2items }}"
