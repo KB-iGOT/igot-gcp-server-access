@@ -26,12 +26,6 @@
     state: present
   loop: "{{ users | dict2items }}"
 
-- name: Remove users from sudoers for no password
-  ansible.builtin.file:
-    path: /etc/sudoers.d/{{ item.key }}
-    state: absent
-  loop: "{{ users | dict2items }}"
-
 - name: Add users into sudoers for no password
   ansible.builtin.copy:
     dest: /etc/sudoers.d/{{ item.key }}
