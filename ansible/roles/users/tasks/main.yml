@@ -14,7 +14,7 @@
     name: "{{ item.key }}"
     groups: "sudo"
     append: true
-    state: "{{ item.value.state | default('present') }}"
+    state: "{{ item.value.state }}"
   when: item.value.sudo | default(false)
   loop: "{{ users | dict2items }}"
 
@@ -23,8 +23,10 @@
     user: "{{ item.key }}"
     key: "{{ item.value.ssh_public_key | default(omit) }}"
     manage_dir: true
-    state: present
+    state: "{{ item.value.state }}"
+  when: item.value.state
   loop: "{{ users | dict2items }}"
+  ignore_errors: true
 
 - name: Add users into sudoers for no password
   ansible.builtin.copy:
@@ -33,5 +35,5 @@
     mode: 0440
     owner: root
     group: root
-  when: item.value.sudo_no_password | default(false)
+  when: item.value.sudo_no_password | default(false) and item.value.state
   loop: "{{ users | dict2items }}"

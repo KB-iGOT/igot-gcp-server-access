@@ -1,0 +1,66 @@
+# Github workflow for execute ansible playbook
+name: UAT Env User Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: users/*.yml
+
+jobs:
+  checkout:
+    runs-on: kb-uat-jumphost-p1
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+  noc:
+    runs-on: kb-uat-jumphost-p1
+    needs: checkout
+    steps:
+      - name: Execute Ansible Playbook (NOC)
+        uses: dawidd6/action-ansible-playbook@v2.8.0
+        with:
+          playbook: users.yml
+          directory: ${{ github.workspace }}/ansible
+          options: |
+            --extra-vars "@${{ github.workspace }}/users/noc.yml"
+            --inventory-file "${{ github.workspace }}/hosts/uat"
+
+  devops:
+    runs-on: kb-uat-jumphost-p1
+    needs: checkout
+    steps:
+      - name: Execute Ansible Playbook (DevOps)
+        uses: dawidd6/action-ansible-playbook@v2.8.0
+        with:
+          playbook: users.yml
+          directory: ${{ github.workspace }}/ansible
+          options: |
+            --extra-vars "@${{ github.workspace }}/users/devops.yml"
+            --inventory-file "${{ github.workspace }}/hosts/uat"
+
+  engg:
+    runs-on: kb-uat-jumphost-p1
+    needs: checkout
+    steps:
+      - name: Execute Ansible Playbook (Engeneering)
+        uses: dawidd6/action-ansible-playbook@v2.8.0
+        with:
+          playbook: users.yml
+          directory: ${{ github.workspace }}/ansible
+          options: |
+            --extra-vars "@${{ github.workspace }}/users/engg.yml"
+            --inventory-file "${{ github.workspace }}/hosts/uat"
+
+  sa:
+    runs-on: kb-uat-jumphost-p1
+    needs: checkout
+    steps:
+      - name: Execute Ansible Playbook (SA)
+        uses: dawidd6/action-ansible-playbook@v2.8.0
+        with:
+          playbook: users.yml
+          directory: ${{ github.workspace }}/ansible
+          options: |
+            --extra-vars "@${{ github.workspace }}/users/sa.yml"
+            --inventory-file "${{ github.workspace }}/hosts/uat"
