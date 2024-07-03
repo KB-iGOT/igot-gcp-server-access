@@ -13,54 +13,24 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-  noc:
+        with:
+          fetch-depth: 0
+  update:
+    strategy:
+      matrix:
+        users:
+          - devops.yml
+          - noc.yml
+          - engg.yml
+          - sa.yml
     runs-on: kb-qa-jumphost-p1
     needs: checkout
     steps:
-      - name: Execute Ansible Playbook (NOC)
+      - name: Execute Ansible Playbook
         uses: dawidd6/action-ansible-playbook@v2.8.0
         with:
           playbook: users.yml
           directory: ${{ github.workspace }}/ansible
           options: |
-            --extra-vars "@${{ github.workspace }}/users/noc.yml"
-            --inventory-file "${{ github.workspace }}/hosts/qa"
-
-  devops:
-    runs-on: kb-qa-jumphost-p1
-    needs: checkout
-    steps:
-      - name: Execute Ansible Playbook (DevOps)
-        uses: dawidd6/action-ansible-playbook@v2.8.0
-        with:
-          playbook: users.yml
-          directory: ${{ github.workspace }}/ansible
-          options: |
-            --extra-vars "@${{ github.workspace }}/users/devops.yml"
-            --inventory-file "${{ github.workspace }}/hosts/qa"
-
-  engg:
-    runs-on: kb-qa-jumphost-p1
-    needs: checkout
-    steps:
-      - name: Execute Ansible Playbook (Engeneering)
-        uses: dawidd6/action-ansible-playbook@v2.8.0
-        with:
-          playbook: users.yml
-          directory: ${{ github.workspace }}/ansible
-          options: |
-            --extra-vars "@${{ github.workspace }}/users/engg.yml"
-            --inventory-file "${{ github.workspace }}/hosts/qa"
-
-  sa:
-    runs-on: kb-qa-jumphost-p1
-    needs: checkout
-    steps:
-      - name: Execute Ansible Playbook (SA)
-        uses: dawidd6/action-ansible-playbook@v2.8.0
-        with:
-          playbook: users.yml
-          directory: ${{ github.workspace }}/ansible
-          options: |
-            --extra-vars "@${{ github.workspace }}/users/sa.yml"
+            --extra-vars "@${{ github.workspace }}/users/${{ matrix.users }}"
             --inventory-file "${{ github.workspace }}/hosts/qa"
