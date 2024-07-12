@@ -1,0 +1,36 @@
+# Github workflow for execute ansible playbook
+name: Prod Env User Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: users/*.yml
+
+jobs:
+  checkout:
+    runs-on: kb-prod-jumphost-p1
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+  update:
+    strategy:
+      matrix:
+        users:
+          - devops.yml
+          - noc.yml
+          - engg.yml
+          - sa.yml
+    runs-on: kb-prod-jumphost-p1
+    needs: checkout
+    steps:
+      - name: Execute Ansible Playbook
+        uses: dawidd6/action-ansible-playbook@v2.8.0
+        with:
+          playbook: users.yml
+          directory: ${{ github.workspace }}/ansible
+          options: |
+            --extra-vars "@${{ github.workspace }}/users/${{ matrix.users }}"
+            --inventory-file "${{ github.workspace }}/hosts/prod"
