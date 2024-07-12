@@ -23,9 +23,3 @@ users:
     sudo: true
     password: "$6$JSAViNy0yFkgzCd2$MVaLk4iW6/dATPtAZQy.dfJBeurM5rFcXB0X/BF5S3ZrKpQNLFM3ZtTryO0n8IUVQiSuh.wS8yGXOelr03atV0"
     ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBd6VAp7P7rRVU5wv+RdaAf1OFKhBKpHX6ybFnGb7sGs rajesh@work"
-
-  sivaprakashr:
-    state: present
-    sudo: true
-    password: "$6$0mOYVGYrF7SiyYEL$dYvgNeqmvt16NyYsX7M7fkWibRsW7oDjvzmlTrmfRQ/ap0U20T50E1B8396FjoyiOxf.kipQZ9VU7.pj.eUDc."
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDxNoxpM9xu9rwfxs1j2FuNXo0YvYxK2s1szX2G7SGBiYGqYTgBpu8D6sUr9Xb1FKy50jYY9vA45jOzEVXl/jVwShaWaLeZ74Xd46nIppaRdAdv/edlywFktjQ/VNmdr/PA7Iy7/g4bunX+a6DDgHiWI6nV6HBzCywOPAp/Sua9eBYdvAhUsba0+FtHrUWcwSV99mUQM9FS4HhpHFrhyd8fu4nd/JOR6dq/A9ErSj/HxmAqDXYMtWQ8WUYJ6efFeNmhdOwRViLYfz3JuX8XNKrCZE8xxDTTgfGP2Xy6ddDXTfMuZqYTzwtOg8UdzZfZSXDWQ8eev16N7gLLgZdhBT7 sivaprakash@Sivaprakash"
