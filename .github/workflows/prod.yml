@@ -21,8 +21,8 @@ jobs:
         users:
           - devops.yml
           - noc.yml
-          - engg.yml
           - sa.yml
+          - super-admins.yml
     runs-on: kb-prod-jumphost-p1
     needs: checkout
     steps:

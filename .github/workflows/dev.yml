@@ -23,6 +23,7 @@ jobs:
           - noc.yml
           - engg.yml
           - sa.yml
+          - super-admins.yml
     runs-on: kb-dev-jumphost-p1
     needs: checkout
     steps:
