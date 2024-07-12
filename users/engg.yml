@@ -1,11 +1,5 @@
 ---
 users:
-  mathew:
-    state: present
-    sudo: true
-    password: "$6$/BprRrv6N2HSC8rm$kx3xzD9QPDJozMSC4/NlMEfiYy3BM1zApFc2BcABQhi/gZah8xRpDDEZltw3iYHLcqzqTey1CYU9TNNobvedx1"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCaRzSDehpRv4yEpwpCD74lQwjop0czuH9E+upDSb+wiUjvpFg33F2ZqnutiYBtBjmig/mNAIDI3yWfZEj/icJQGRj/krBm3+w5qV4RJc5GqGe+vuNti0otXgIll6rHZomWWpCFE/vjHuFZjAJMO0cCmxcjpOdmlAgknQi1ZDzIc83tzyucc9d/hCu9sK7Y5fNv9NT/NjNC6dD8Deekr+ocTPQGifXQCcyx5pYcEM0XP3OtmqQ3PHj+qEBhKAb08b+adRTEWSY9rf8yJrlKE0HM/RUv4uq1a4/eKlPss0ORXjkx0oZIthM6M5DNODAI3DBBTMzA7zfr+YSHvbFu7tnUgEviJJxJ8WDFkGcm6HXDnMHw4mBIlsH9fPcdgcFQ5aqiO+y+bf8xatvDg/P7YYuoC6JeQNMa2aV+9GYuKecjCSQrYMZb+PQDJvtOyyRzGQcPW/Em6dcakKY5otE8IK0GmRVu1vLBHQJtvVh1Yh6QqWbOkR+X0pKhC/KW6FTUd8c= mathewjpallan@gmail.com"
-
   karthikeyanr:
     state: present
     sudo: true
