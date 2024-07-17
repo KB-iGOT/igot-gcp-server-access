@@ -1,5 +1,10 @@
 # Linux Remote Server User Management
 
+[![Prod Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/prod.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/prod.yml)
+[![UAT Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/uat.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/uat.yml)
+[![QA Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/qa.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/qa.yml)
+[![Dev Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/dev.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/dev.yml)
+
 This repository is used to manage users for Linux remote servers. Users can request the creation of new accounts or update existing ones by creating pull requests with the necessary details in the `users/team.yml` file.
 
 ## Table of Contents
