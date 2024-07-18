@@ -50,3 +50,4 @@ kb-prod-db-sklm-druid-p5 ansible_host=10.175.5.59 ansible_port=9822
 kb-prod-db-sklm-druid-p6 ansible_host=10.175.5.60 ansible_port=9822
 kb-prod-sklm-mongo-p1 ansible_host=10.175.5.38 ansible_port=9822
 kb-prod-druid-wh-pgsql-p1 ansible_host=10.175.5.62 ansible_port=9822
+kb-prod-db-igot-neo4j-p1 ansible_host=10.175.5.63 ansible_port=9822
