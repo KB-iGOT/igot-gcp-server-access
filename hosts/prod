@@ -1,52 +1,56 @@
+[all:vars]
+ansible_port=9822
+host_key_checking=False
+
 [all]
-kb-prod-jumphost-p1 ansible_host=10.175.5.6 ansible_port=9822
-kb-prod-jenkins-p1 ansible_host=10.175.5.14 ansible_port=9822
-kb-prod-db-cass-p1 ansible_host=10.175.5.7 ansible_port=9822
-kb-prod-db-cass-p2 ansible_host=10.175.5.8 ansible_port=9822
-kb-prod-db-cass-p3 ansible_host=10.175.5.9 ansible_port=9822
-kb-prod-db-es-p1 ansible_host=10.175.5.10 ansible_port=9822
-kb-prod-db-es-p2 ansible_host=10.175.5.11 ansible_port=9822
-kb-prod-db-es-p3 ansible_host=10.175.5.12 ansible_port=9822
-kb-prod-db-es-p4 ansible_host=10.175.5.13 ansible_port=9822
-kb-prod-db-igot-es-p1 ansible_host=10.175.5.45 ansible_port=9822
-kb-prod-db-igot-es-p2 ansible_host=10.175.5.46 ansible_port=9822
-kb-prod-db-igot-es-p3 ansible_host=10.175.5.47 ansible_port=9822
-kb-prod-db-log-agg-es-p1 ansible_host=10.175.5.48 ansible_port=9822
-kb-prod-db-log-agg-es-p2 ansible_host=10.175.5.49 ansible_port=9822
-kb-prod-db-log-agg-es-p3 ansible_host=10.175.5.50 ansible_port=9822
-kb-prod-db-igot-pgsql-p1 ansible_host=10.175.5.15 ansible_port=9822
-kb-prod-db-sb-pgsql-p1 ansible_host=10.175.5.16 ansible_port=9822
-kb-prod-db-report-pgsql-p1 ansible_host=10.175.5.17 ansible_port=9822
-kb-prod-db-sb-neo4j-p1 ansible_host=10.175.5.18 ansible_port=9822
-kb-prod-db-kp-redis-p1 ansible_host=10.175.5.19 ansible_port=9822
-kb-prod-db-dp-redis-p1 ansible_host=10.175.5.20 ansible_port=9822
-kb-prod-db-mongo-p1 ansible_host=10.175.5.21 ansible_port=9822
-kb-prod-keycloak-p1 ansible_host=10.175.5.22 ansible_port=9822
-kb-prod-keycloak-p2 ansible_host=10.175.5.23 ansible_port=9822
-kb-prod-keycloak-p3 ansible_host=10.175.5.24 ansible_port=9822
-kb-prod-kp-learning-p1 ansible_host=10.175.5.25 ansible_port=9822
-kb-prod-kp-learning-p2 ansible_host=10.175.5.26 ansible_port=9822
-kb-prod-dp-kafka-p1 ansible_host=10.175.5.27 ansible_port=9822
-kb-prod-dp-kafka-p2 ansible_host=10.175.5.28 ansible_port=9822
-kb-prod-dp-kafka-p3 ansible_host=10.175.5.29 ansible_port=9822
-kb-prod-kp-kafka-p1 ansible_host=10.175.5.30 ansible_port=9822
-kb-prod-kp-kafka-p2 ansible_host=10.175.5.31 ansible_port=9822
-kb-prod-kp-kafka-p3 ansible_host=10.175.5.32 ansible_port=9822
-kb-prod-sb-druid-p1 ansible_host=10.175.5.33 ansible_port=9822
-kb-prod-sb-druid-p2 ansible_host=10.175.5.51 ansible_port=9822
-kb-prod-sb-druid-p3 ansible_host=10.175.5.52 ansible_port=9822
-kb-prod-sb-druid-p4 ansible_host=10.175.5.53 ansible_port=9822
-kb-prod-sb-druid-p5 ansible_host=10.175.5.54 ansible_port=9822
-kb-prod-sb-druid-p6 ansible_host=10.175.5.55 ansible_port=9822
-kb-prod-sb-druid-p7 ansible_host=10.175.5.61 ansible_port=9822
-kb-prod-sb-secor-p1 ansible_host=10.175.5.34 ansible_port=9822
-kb-prod-sb-spark-p1 ansible_host=10.175.5.35 ansible_port=9822
-kb-prod-db-sklm-pgsql-p1 ansible_host=10.175.5.36 ansible_port=9822
-kb-prod-db-sklm-druid-p1 ansible_host=10.175.5.37 ansible_port=9822
-kb-prod-db-sklm-druid-p2 ansible_host=10.175.5.56 ansible_port=9822
-kb-prod-db-sklm-druid-p3 ansible_host=10.175.5.57 ansible_port=9822
-kb-prod-db-sklm-druid-p4 ansible_host=10.175.5.58 ansible_port=9822
-kb-prod-db-sklm-druid-p5 ansible_host=10.175.5.59 ansible_port=9822
-kb-prod-sklm-mongo-p1 ansible_host=10.175.5.38 ansible_port=9822
-kb-prod-druid-wh-pgsql-p1 ansible_host=10.175.5.62 ansible_port=9822
-kb-prod-db-igot-neo4j-p1 ansible_host=10.175.5.63 ansible_port=9822
+kb-prod-jumphost-p1 ansible_host=10.175.5.6
+kb-prod-jenkins-p1 ansible_host=10.175.5.14
+kb-prod-db-cass-p1 ansible_host=10.175.5.7
+kb-prod-db-cass-p2 ansible_host=10.175.5.8
+kb-prod-db-cass-p3 ansible_host=10.175.5.9
+kb-prod-db-es-p1 ansible_host=10.175.5.10
+kb-prod-db-es-p2 ansible_host=10.175.5.11
+kb-prod-db-es-p3 ansible_host=10.175.5.12
+kb-prod-db-es-p4 ansible_host=10.175.5.13
+kb-prod-db-igot-es-p1 ansible_host=10.175.5.45
+kb-prod-db-igot-es-p2 ansible_host=10.175.5.46
+kb-prod-db-igot-es-p3 ansible_host=10.175.5.47
+kb-prod-db-log-agg-es-p1 ansible_host=10.175.5.48
+kb-prod-db-log-agg-es-p2 ansible_host=10.175.5.49
+kb-prod-db-log-agg-es-p3 ansible_host=10.175.5.50
+kb-prod-db-igot-pgsql-p1 ansible_host=10.175.5.15
+kb-prod-db-sb-pgsql-p1 ansible_host=10.175.5.16
+kb-prod-db-report-pgsql-p1 ansible_host=10.175.5.17
+kb-prod-db-sb-neo4j-p1 ansible_host=10.175.5.18
+kb-prod-db-dp-redis-p1 ansible_host=10.175.5.19
+kb-prod-db-kp-redis-p1 ansible_host=10.175.5.20
+kb-prod-db-mongo-p1 ansible_host=10.175.5.21
+kb-prod-keycloak-p1 ansible_host=10.175.5.22
+kb-prod-keycloak-p2 ansible_host=10.175.5.23
+kb-prod-keycloak-p3 ansible_host=10.175.5.24
+kb-prod-kp-learning-p1 ansible_host=10.175.5.25
+kb-prod-kp-learning-p2 ansible_host=10.175.5.26
+kb-prod-dp-kafka-p1 ansible_host=10.175.5.27
+kb-prod-dp-kafka-p2 ansible_host=10.175.5.28
+kb-prod-dp-kafka-p3 ansible_host=10.175.5.29
+kb-prod-kp-kafka-p1 ansible_host=10.175.5.30
+kb-prod-kp-kafka-p2 ansible_host=10.175.5.31
+kb-prod-kp-kafka-p3 ansible_host=10.175.5.32
+kb-prod-sb-druid-p1 ansible_host=10.175.5.33
+kb-prod-sb-druid-p2 ansible_host=10.175.5.51
+kb-prod-sb-druid-p3 ansible_host=10.175.5.52
+kb-prod-sb-druid-p4 ansible_host=10.175.5.53
+kb-prod-sb-druid-p5 ansible_host=10.175.5.54
+kb-prod-sb-druid-p6 ansible_host=10.175.5.55
+kb-prod-sb-druid-p7 ansible_host=10.175.5.61
+kb-prod-sb-secor-p1 ansible_host=10.175.5.34
+kb-prod-sb-spark-p1 ansible_host=10.175.5.35
+kb-prod-db-sklm-pgsql-p1 ansible_host=10.175.5.36
+kb-prod-db-sklm-druid-p1 ansible_host=10.175.5.37
+kb-prod-db-sklm-druid-p2 ansible_host=10.175.5.56
+kb-prod-db-sklm-druid-p3 ansible_host=10.175.5.57
+kb-prod-db-sklm-druid-p4 ansible_host=10.175.5.58
+kb-prod-db-sklm-druid-p5 ansible_host=10.175.5.59
+kb-prod-sklm-mongo-p1 ansible_host=10.175.5.38
+kb-prod-druid-wh-pgsql-p1 ansible_host=10.175.5.62
+kb-prod-db-igot-neo4j-p1 ansible_host=10.175.5.63

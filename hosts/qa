@@ -1,10 +1,14 @@
+[all:vars]
+ansible_port=9822
+host_key_checking=False
+
 [all]
-kb-qa-jumphost-p1 ansible_host=10.175.3.45 ansible_port=9822
-kb-qa-igotdb-p1 ansible_host=10.175.3.36 ansible_port=9822
-kb-qa-coredb-p1 ansible_host=10.175.3.37 ansible_port=9822
-kb-qa-kp-p1 ansible_host=10.175.3.38 ansible_port=9822
-kb-qa-ser-p3 ansible_host=10.175.3.39 ansible_port=9822
-kb-qa-ser-p1 ansible_host=10.175.3.40 ansible_port=9822
-kb-qa-ser-p2 ansible_host=10.175.3.41 ansible_port=9822
-kb-qa-druid-p1 ansible_host=10.175.3.42 ansible_port=9822
-kb-qa-dp-p1 ansible_host=10.175.3.44 ansible_port=9822
+kb-qa-jumphost-p1 ansible_host=10.175.3.45
+kb-qa-igotdb-p1 ansible_host=10.175.3.36
+kb-qa-coredb-p1 ansible_host=10.175.3.37
+kb-qa-kp-p1 ansible_host=10.175.3.38
+kb-qa-ser-p3 ansible_host=10.175.3.39
+kb-qa-ser-p1 ansible_host=10.175.3.40
+kb-qa-ser-p2 ansible_host=10.175.3.41
+kb-qa-druid-p1 ansible_host=10.175.3.42
+kb-qa-dp-p1 ansible_host=10.175.3.44
