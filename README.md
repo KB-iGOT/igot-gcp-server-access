@@ -1,9 +1,9 @@
 # Server Access and User Management
 
-[![Prod Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/prod.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/prod.yml)
-[![UAT Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/uat.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/uat.yml)
-[![QA Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/qa.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/qa.yml)
-[![Dev Env User Update](https://github.com/srajasimman/ansible-user-update/actions/workflows/dev.yml/badge.svg)](https://github.com/srajasimman/ansible-user-update/actions/workflows/dev.yml)
+[![Prod Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/prod.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/prod.yml)
+[![UAT Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/uat.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/uat.yml)
+[![QA Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/qa.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/qa.yml)
+[![Dev Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/dev.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/dev.yml)
 
 This repository is used to manage users for Linux remote servers. Users can request the creation of new accounts or update existing ones by creating pull requests with the necessary details in the `users/team.yml` file.
 
@@ -56,11 +56,11 @@ This repository is used to manage users for Linux remote servers. Users can requ
 1. Fork this repository to your own GitHub account.
 2. Clone your fork to your local machine:
     ```sh
-    git clone https://github.com/srajasimman/ansible-role-users.git
+    git clone https://github.com/KB-iGOT/igot-gcp-server-access.git
     ```
 3. Navigate to the repository directory:
     ```sh
-    cd ansible-role-users
+    cd igot-gcp-server-access
     ```
 4. Open the `users/team.yml` file in a text editor.
 5. Add or update a user entry with your details:
@@ -89,6 +89,4 @@ This repository is used to manage users for Linux remote servers. Users can requ
 
 Your pull request will be reviewed by a repository maintainer. Once approved, your changes will be merged, and the new user configuration will be applied to the Linux remote servers.
 
----
 
-Thank you for contributing to the Linux Remote Server User Management project!
