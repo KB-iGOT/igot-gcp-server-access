@@ -19,6 +19,7 @@ jobs:
     strategy:
       matrix:
         users:
+          - dev.yml
           - devops.yml
           - noc.yml
           - engg.yml
