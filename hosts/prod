@@ -11,7 +11,6 @@ kb-prod-db-cass-p3 ansible_host=10.175.5.9
 kb-prod-db-es-p1 ansible_host=10.175.5.10
 kb-prod-db-es-p2 ansible_host=10.175.5.11
 kb-prod-db-es-p3 ansible_host=10.175.5.12
-kb-prod-db-es-p4 ansible_host=10.175.5.13
 kb-prod-db-igot-es-p1 ansible_host=10.175.5.45
 kb-prod-db-igot-es-p2 ansible_host=10.175.5.46
 kb-prod-db-igot-es-p3 ansible_host=10.175.5.47
