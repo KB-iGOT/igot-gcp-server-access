@@ -19,11 +19,11 @@ jobs:
     strategy:
       matrix:
         users:
-          - engg.yml
-          - devops.yml
-          - noc.yml
           - sa.yml
           - super-admins.yml
+          - noc.yml
+          - devops.yml
+          - engg.yml
     runs-on: kb-prod-jumphost-p1
     needs: checkout
     steps:
