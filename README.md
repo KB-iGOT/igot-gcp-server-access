@@ -5,14 +5,14 @@
 [![QA Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/qa.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/qa.yml)
 [![Dev Env User Update](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/dev.yml/badge.svg)](https://github.com/KB-iGOT/igot-gcp-server-access/actions/workflows/dev.yml)
 
-This repository is used to manage users for Linux remote servers. Users can request the creation of new accounts or update existing ones by creating pull requests with the necessary details in the `users/team.yml` file.
+This repository is used to manage users for Linux remote servers. Users can request the creation of new accounts or update existing ones by creating pull requests with the necessary details in the `users/dev.yml` file.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [How to Generate a Password](#how-to-generate-a-password)
 - [How to Generate an SSH Key](#how-to-generate-an-ssh-key)
-- [Updating the `users/team.yml` File](#updating-the-usersteamyml-file)
+- [Updating the `users/dev.yml` File](#updating-the-usersteamyml-file)
 - [Creating a Pull Request](#creating-a-pull-request)
 
 ## Prerequisites
@@ -51,7 +51,7 @@ This repository is used to manage users for Linux remote servers. Users can requ
     ssh-rsa AAAAB3... rest_of_your_key ... your_email@example.com
     ```
 
-## Updating the `users/team.yml` File
+## Updating the `users/dev.yml` File
 
 1. Fork this repository to your own GitHub account.
 2. Clone your fork to your local machine:
@@ -62,7 +62,7 @@ This repository is used to manage users for Linux remote servers. Users can requ
     ```sh
     cd igot-gcp-server-access
     ```
-4. Open the `users/team.yml` file in a text editor.
+4. Open the `users/dev.yml` file in a text editor.
 5. Add or update a user entry with your details:
     ```yaml
     users:
@@ -76,7 +76,7 @@ This repository is used to manage users for Linux remote servers. Users can requ
 
 1. Commit your changes:
     ```sh
-    git add users/team.yml
+    git add users/dev.yml
     git commit -m "Add/Update user 'username'"
     ```
 2. Push your changes to your fork:
