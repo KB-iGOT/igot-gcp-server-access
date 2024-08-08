@@ -15,7 +15,7 @@ users:
   abubakark:
     state: present
     sudo: true
-    password: "$6$pdtgR51S7tQ4P$74yKQZffYRF/O.uPvIXQFBiq82wMcTokDbdOtUI8aF310a8W5uXNF8a8kZzACHT3vfsqJKArYn/SqNJGLEguO1"
+    password: "$6$6cXf4gfEZ$tr/dInnbz5yj6VGtM5CXcrNptlIrLxxfMLj38tPEQ9016l/sDudPWY5NyN6Mqu7a7CnABUh2OAMxDacikl1lm1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwzUML6dlrRAl0hCqK1ip/zlxXB8KdA3eVAflAxUHZzMdZ7/qyGEvnKREELJEPpToSro1U2Kk3vpbVt321RJeGEeP+iRbIrRcf5rpmULwRa18ed0OCAmaIEMy7S2LRJ6tSBMfR/rHTUAa2XDnuNmWY0gqXRE00R0YW+pY7wtWlvh0hFZ070OaOHlX7bQhhWCwNH7soGNNv50A9P1yKE9FMpi3oqCwdVfDaGlRIz9lhWWNrt7XaiQinuAxQAA2fjLaxIfs9zgjfwVHVXDNgcsvVbLSn5KwYOvMfaqR049tGKTOnzZH+K8/At3BcJ9c6mU/pAW3uBiYvRlNT85mlq8X ubuntu@Ubuntu"
 
   naveenp:
