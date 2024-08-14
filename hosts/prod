@@ -54,3 +54,7 @@ kb-prod-db-sklm-druid-p5 ansible_host=10.175.5.59
 kb-prod-db-sklm-pgsql-p1 ansible_host=10.175.5.36
 kb-prod-sklm-mongo-p1 ansible_host=10.175.5.38
 kb-prod-sb-jmeter-p1 ansible_host=10.175.5.225
+kb-prod-sb-jmeter-p2 ansible_host=10.175.5.70
+kb-temp-sb-es-prod-p1 ansible_host=10.175.5.226
+kb-temp-sb-es-prod-p2 ansible_host=10.175.5.228
+kb-temp-sb-es-prod-p3 ansible_host=10.175.5.227
