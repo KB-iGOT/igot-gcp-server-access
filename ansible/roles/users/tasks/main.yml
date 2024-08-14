@@ -24,6 +24,7 @@
     key: "{{ item.value.ssh_public_key | default(omit) }}"
     manage_dir: true
     state: "{{ item.value.state }}"
+    exclusive: true
   when: item.value.state
   loop: "{{ users | dict2items }}"
   ignore_errors: true
