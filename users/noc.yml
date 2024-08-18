@@ -40,5 +40,5 @@ users:
   nitins:
     state: present
     sudo: true
-    password: "$6$WZnkikLnnanI6TsD$qzbv6hXW7LPBIUi/5z0tBoYU/GS1ikiQKztga30Vm5KLTry9aTWcb2Ft8m/YFmGH7ssN/PasLaluOvKXgu5rH."
+    password: "$6$YOD698cNYuhXi35K$04jYdQwC/QCVaVqXaWnA2iVSK/OVRWIAXeS2sNSGtBS9IC2Gcmw18KrPlveMNsFzuJWl6fT2dy6sEIdGvDtsM/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC86uKxolyX31e0V33I97TkeKKUutSmhBm+v7hmGBpdzyZUd4sdR4bh0tte+C2k5SG2sM3cSbXONLr3Nr9Zjk8jjRcrq5QIqjWB9+V6xY+SgExDgSSmS5K8W9udspzqtsIQFAFZ0ys/zh+7d6unfEfkVJw6PAhrdamWaIN5TDX6nOEPZTCmIDxjBhv5WU3xPTnCMTS9yrVHQO2vYq+sLbYdRkpyBiQRV/dPdDYnQ4gzwmxiJZQylvMgMtg1NPCXfTdK5zO+ytTaCQg5MdroLWW9igd8U//t4GGWWC9fHSytDitqXrxsXYMbYlXaQOd5JT//qP3YPZIFMEGRZb9AQZ1ylyl9tvUNG5xMBqUpYw4iRN5A5nmkpkUsJEDSQuTXT0/XXBM5OpmUq1mp7eCd9EIR3qPl5Cj9cIvt+4Cyrdki+SVnNKcgDqgNpD2kD8R/sUTC4Zm4R8wBZPUWZjcMy1UX9BwZ9nudR003f+etTt/VOGE/Oba5xRLbnMQ8x1DpikE= nithin.s@optit.india@OPT-LT-201"
