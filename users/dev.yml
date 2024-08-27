@@ -112,6 +112,6 @@ users:
     state: present
     sudo: true
     password: "$6$Yulb0iLAuHN7CNcR$oZrGrC2zLxZKmDtpNDHLYyMSsUx2I.xulp5TW1cu41tJIfEGU22hENhfiW9RQKNuz4gKV2IY1DrB34R6NliWW1"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrofPyLHGQUmjJeRpBZOpbaQbMHfHER/AduQcgzBgqLHB76MJdxqSxmrKIRV/ng7RzXd/D8WQbV5CaR8ZCDTcvcns75pJ7Y0BfI5k2B3DYaQhXmw4bewEiVHrTO7HXgCcyrw+pCJqc/EjQVu3HC0BPdqbUq15K54AJaIAFxMT6XxbBNagon6BCQjAUBnv+0qdZAcnJxN5ZlZ+Sf72oiLynZ6AHwQP+88YJrs6segtAhuw725LVySCGmiXh64mP5FqbQxibApoJ7cGuPhjk0aOeXDI+xUiLmeSnejpIPlxSIQcboMPbTTjGLXYMcLVxm7sJ6JLDVuL0cuvJDPWuku2v anshu.aggarwal28@karmayogi.in"
+    ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHC4e4UEV98ERrdDDx1XMyctJANRaVjq64SpITruPrzP AzureAD+AnshuAggarwal@Anshu"
 
     
