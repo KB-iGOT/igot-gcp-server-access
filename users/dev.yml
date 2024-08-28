@@ -100,7 +100,7 @@ users:
    state: present
    sudo: true
    password: "$6$4uhr6kqt2y8vEWgv$QlIz5V7uPCDfrMLimtaXiw3eY0N1ekN.VcOamy7dyQkwBHH3vKFUWt22dMvdWvyfD3soicql5TKRdnE3Zh5A01"
-   ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMIx/Wi2j+qIN/BXJxBhjxweKZJi3nNIdCxTaKUI6HWUD5ORlMMIs5wRL3PpWmVBrYj8FjU4abh2y1ORTRL779iljulkE0s9j5MTyszeNxQeqa6S8/sXJh31s9rKa72Zx6uic16qpRITNFDaead0KMWo3nbqyh1vPixO/ERms7HV4Xi6CYDXfkmju25dx/ay2MpknopSKCcLad63iCQ7SOtko3FvKCLwvI9X3ODWC3+4NYwbphMbOhrbfTBfOjMnKiUX8jFJKeOFKwACQqCeKsMu1VDtkKD+LmRZ5rUiuXiiHqPyf4qr3NOfP/y6aWhjtn7lielOb8axKuYTWtwQix himanshu.gupta@tarento.com"
+   ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBF5JxDoHq2zEXF7zIFhmmR6y2bOz/8utT+zd8l9Rjxd Himanshu Gupta@TI-LAP-886"
  
   sonav:
     state: present
