@@ -113,5 +113,11 @@ users:
     sudo: true
     password: "$6$Yulb0iLAuHN7CNcR$oZrGrC2zLxZKmDtpNDHLYyMSsUx2I.xulp5TW1cu41tJIfEGU22hENhfiW9RQKNuz4gKV2IY1DrB34R6NliWW1"
     ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHC4e4UEV98ERrdDDx1XMyctJANRaVjq64SpITruPrzP AzureAD+AnshuAggarwal@Anshu"
-
+    
+  vikrants:
+    state: present
+    sudo: true
+    password: "$6$G9HHwdBLlxcHBAlV$UaigU3MG/O/gNynplqbYdxO3IpIK7EMsmf1GgxH2hoMC3u9osJFpxSN9.x.gCm.8qKJSnmAC0YpSdJecvUUh.0"
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCX8gaFyUTsfNK/12his8s0mBGpgsrdh5deNWk5VpiliN1RFxqGbS81PdIZdi3nEWBeGYUIY4TLMcaLS8GpoJjYqZRih4p1m3l26R+INKBam0potwrxeCPhQlSxNXCF7xvbkFeGtjH6oTwK6XvfuKJ68RYW8JiwkTMTdasc+I+u+qxhLkps6kdEyzLWN5l0HzAfrqHtgCKcDSKxAhVIJmDPJXzCxk1hGeiiIBD9csmYNBuZtj1gWnHOLmUGmrL6q5xV8tGApVYjGvpXaw96IkjC6P1l1Y+PuoDD+nMqE7IhE2B9ERO4CL1s9dM+vJ+IVO2jT18KLqUcKRQAw30wPCN/jmOyGYx8y1lq6UAI1gPvV4vTwP4wvccF/xdnIE7JQYqAqr9n9BSy2UIxpqWqExmnlt6+pTPPopzfvAN69eccaCpwIicuZ85YnR/o5mmJakhk5WYy8qBP8MLa7C72t92UT7R2Uy/qA+Ca/iSfUsr7x0cinwV7sOn+gLjZ8VHeqd2eejbY+i2M/NQu1jXkaIOXFpEnG74E5xySTzvDL22z7jd7FNxH4t2/BPUNQLdy+daPeNCN5GGvcYBlVdM/ZuoRDFWMzU852OaTqFHX2zwG9Uy54rAsaJF/4POxiJGXAq66FmF/cblpuELm6PO0YsdZfg+3NLVebpCwr92pBgzZIQ== vikrant.bipin@tarento.com"
+    
     
