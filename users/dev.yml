@@ -65,7 +65,7 @@ users:
     sudo: true
     password: "$6$TXXxb.kgE$rIt1IgxvMvtxKE4AUSj4Toemh438U7fFFai6hDWZrbqV0zd8ONN4c1Xdv2vsFyCKJIi.51HY5Fp/sDtoKs0wU/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCzJV4DEDfPK3ofNMWDcjaKloGhqB0KcUQn+7Yc8XCdoVwV4OOOdnsk695p5HgJ7PBXkkhXkMm3yJx3Z+1vyNBVvslRr/oEmc3jS5+odG6MI05XW6s2+NW5nWLrSc1gl0LeOm7G7C2Wqx9Rd7lozL/mqhQIdn8mHeopLkmfaTP8pX2j0FMb/NkWrnL7TbOX1sYQU4SLjYsS+daXODlhOWALMcjIXdD8HSEUVWgSKnXsQc3+C9ly8yITCu5NBuzXDBZkOXBSzPW76v04X0+5M/bW1X1mbIreUXJ0vQ6MxoAMRmK5emqoKSluqIgKEhaGXa5rZ3jNQtWPBSFCOmWvSe11Qo+xAwUWo7+s8uwFccnVhL0PBp+5O6TRsjBSy95FZdBWn2FWUb71AQMlyXiwrOfsz9ADzD6SLH9v6dIdp82pB3cPbrZ5dUm34zT6OYyrhsQS+J2csXdiZDFi5AKxtQziNzVLd5TMJrmOz3FxH3OnTUnj61t02H6itHUBKCAurcGdvv3Wu/EddAuFg6w5OVGZcUspCNULBaGAFeKNIEvPzhbHMHTzYOouUwhOUr1p7AIqA91Fn0SeH6f+ACWJb4X22v0ug40lLHJ5VMnJSsCUPrVQVRopywWjgxP2uEYw8rr5buVd7an4WcHq9mF/IyIRlclqSO10UWUKSULgITNkGQ== shankaragouda.biradar@tarento.com"
-  
+
   bharathk:
     state: present
     sudo: true
@@ -77,7 +77,7 @@ users:
     sudo: true
     password: "$6$Lobh86wMNi3E$VIKr5lCqKhgPUtFDoBK/zOZndH6hPJvQhkZGJGbddIXHxc6PKhuvmlpAZmQuqd1b128ry/pM9bP2.2qPF/bzS"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC3Rb4gIElu+jHKviFjqHjN8PI73QxBs9cbS7NFJQlGNOfNEn5OQDCBnhXgoPzB3VoUEDaLIhb3HcMIutZwb38k12j0VgDvToDhV9wFsmzIDQof0mwWnlP67zjr7DX+TQ5R+Jx0Q9SBKiM2Z6JA05/1pH90/SfyZ0vusgBWrDMjyDuhphq4CNLOCSIxlg9jnQO0bIp9w/JoJYCtDTmLKWikpaXZCjjJP9QTqM3gIFTVGDKG7uWT8t74DhWlt4NNQCtP15jcvF68q3Sf9QGpz9eJf9wKLqQVptBkys2m5h2/Gsf0Rf9RpHJoL7wPjVSrNRpZOjWBQID5vLfrjWAhooo41FEtV4EMpNBAr2frFYK5XMhB8QKxun0ySbc9AYk+v49yFsMPO7t4ShMenTM7jpCzakNCR65yfYpjPVhQCcRam1r8DlK3nNB66ppm7jyNOn7xTml0bdMNZPwB391FupkDpkenYFslPYc5/I/M/Tz4/RSHh5BKRkd8XEs/0CUbOLHWhSqm8B24pf8OHIrhblRFip/xwNRX1zL+Y4WDypm7mlVA6gpd3qboDe7Y7B83uQaTCdlS2FjDlcOM0Sfxds26B9Pc8j5b51x8+DLdOLZr58WEQFD2Ec/p3ZiVEipqBKU05xzO3obRFfcpxH4Bcob5QkYjgV0Z+7txYA1TPo62WQ== christopher.fernandes@tarento.com"
-  
+
   mansurs:
     state: present
     sudo: true
@@ -89,7 +89,7 @@ users:
     sudo: true
     password: "$6$8lW0NgPAi$XUsB8.d.mpaI.tvCH7Y0fDksGfWlhY2Wawnb66wBsuN9msAK6BdR4/hZhgdDQPVMauGH80Zqkq45qpjqvWKXb1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5IszNr4EcF6pU17A6YA3udJea0opaB5knpLWCDAf8cDCgcqcIR6zcz+O+Lqx2qGLLTN6LTJMp2UcIgutkvPrITZvyDGmKLadR6HpEzh7Wc387L3GFTu8/VmOCxl8ZSZ6QGaWa9JyQ/U2mC11Jy+lBlTpLJwEguN3z/ugfLqaabmzQvsvy0bPNv457UHzFAaDZOAQHEZCLus/wZYAgJS8EDz5OCp37siEMCPqpH3XGQutV1sk2FAtmOu8q069MrYOV4LhsUDK8UBxDhuph8bUUr7sFgs8aWHaxDVro460FtDZoWEtCGL7wO0iPKSZEemVYl47OonSYgLp5/gqfxgXPCLtYwZNcW0rVJ7QXvcwvR+ALKQzfvet40auBZIdt0VxkgP0yTVvtB1rS+cwcdoEJjMZigKI5r//r+7j90NGjT5twDIGB++GZ0OSzi74nCmRgpRNgSjMAdBN3jfMBE3J41w3cgPCUjIjkGxLucBkufZMeGb7abyPopqQP2/ZDtXYM8sg7GPUA3GbwUJFT2yGGj4m+sCIf9XIGjoHM8r6Yqf5OLIjlAacqkFiGyMX3yOIWxxL6LRv4dPEgWDYdDhrGr3K4ZrPPdebO1nQ3W/HBqbSCQy9g5HLVIwDGnsWWA9QwPHWq5FRJL+M6JYCxmhlslCFKRCOa+LrWL0eJW9Wkdw== venkata.subbaiah@tarento.com"
-  
+
   sujiths:
     state: present
     sudo: true
@@ -101,7 +101,7 @@ users:
    sudo: true
    password: "$6$4uhr6kqt2y8vEWgv$QlIz5V7uPCDfrMLimtaXiw3eY0N1ekN.VcOamy7dyQkwBHH3vKFUWt22dMvdWvyfD3soicql5TKRdnE3Zh5A01"
    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMIx/Wi2j+qIN/BXJxBhjxweKZJi3nNIdCxTaKUI6HWUD5ORlMMIs5wRL3PpWmVBrYj8FjU4abh2y1ORTRL779iljulkE0s9j5MTyszeNxQeqa6S8/sXJh31s9rKa72Zx6uic16qpRITNFDaead0KMWo3nbqyh1vPixO/ERms7HV4Xi6CYDXfkmju25dx/ay2MpknopSKCcLad63iCQ7SOtko3FvKCLwvI9X3ODWC3+4NYwbphMbOhrbfTBfOjMnKiUX8jFJKeOFKwACQqCeKsMu1VDtkKD+LmRZ5rUiuXiiHqPyf4qr3NOfP/y6aWhjtn7lielOb8axKuYTWtwQix himanshu.gupta@tarento.com"
- 
+
   sonav:
     state: present
     sudo: true
@@ -113,11 +113,9 @@ users:
     sudo: true
     password: "$6$Yulb0iLAuHN7CNcR$oZrGrC2zLxZKmDtpNDHLYyMSsUx2I.xulp5TW1cu41tJIfEGU22hENhfiW9RQKNuz4gKV2IY1DrB34R6NliWW1"
     ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHC4e4UEV98ERrdDDx1XMyctJANRaVjq64SpITruPrzP AzureAD+AnshuAggarwal@Anshu"
-    
+
   vikrants:
     state: present
     sudo: true
     password: "$6$G9HHwdBLlxcHBAlV$UaigU3MG/O/gNynplqbYdxO3IpIK7EMsmf1GgxH2hoMC3u9osJFpxSN9.x.gCm.8qKJSnmAC0YpSdJecvUUh.0"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCX8gaFyUTsfNK/12his8s0mBGpgsrdh5deNWk5VpiliN1RFxqGbS81PdIZdi3nEWBeGYUIY4TLMcaLS8GpoJjYqZRih4p1m3l26R+INKBam0potwrxeCPhQlSxNXCF7xvbkFeGtjH6oTwK6XvfuKJ68RYW8JiwkTMTdasc+I+u+qxhLkps6kdEyzLWN5l0HzAfrqHtgCKcDSKxAhVIJmDPJXzCxk1hGeiiIBD9csmYNBuZtj1gWnHOLmUGmrL6q5xV8tGApVYjGvpXaw96IkjC6P1l1Y+PuoDD+nMqE7IhE2B9ERO4CL1s9dM+vJ+IVO2jT18KLqUcKRQAw30wPCN/jmOyGYx8y1lq6UAI1gPvV4vTwP4wvccF/xdnIE7JQYqAqr9n9BSy2UIxpqWqExmnlt6+pTPPopzfvAN69eccaCpwIicuZ85YnR/o5mmJakhk5WYy8qBP8MLa7C72t92UT7R2Uy/qA+Ca/iSfUsr7x0cinwV7sOn+gLjZ8VHeqd2eejbY+i2M/NQu1jXkaIOXFpEnG74E5xySTzvDL22z7jd7FNxH4t2/BPUNQLdy+daPeNCN5GGvcYBlVdM/ZuoRDFWMzU852OaTqFHX2zwG9Uy54rAsaJF/4POxiJGXAq66FmF/cblpuELm6PO0YsdZfg+3NLVebpCwr92pBgzZIQ== vikrant.bipin@tarento.com"
-    
-    
