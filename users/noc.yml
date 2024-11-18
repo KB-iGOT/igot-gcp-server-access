@@ -49,3 +49,9 @@ users:
     password: "$6$CZ4qwOl9NhK4SLvn$VW3a3LkD1pFBTG3MvNAhYswzS.xuOL2E0LKz4E6/UNms73san6Bia8vRZFfU7e7kCneHeVsEchwLxny1sfZM4."
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1B1dpUvJihJBJY+ZG+ATM9eWP633sW5Wx1OsOkmoWiJBfDytCZ5FNZX5MXWNQP4CnXrfq8A2a7p2hBuXNwO3QY+5a87UdBQ2FiIes+qMXyA+Zrhj8YTSwu8HksPH8HLSYQwShmmWtsAxeS4e5yDMQ5AIl8i6EzQ/fzszO+27B74L4TMBWsgDvcpXyTFVoivfByGFitCZM4ZQFcBniVMwjIKcCehrQLXjeSYhs4/94xm11Pf0mCZmDa+/oNbfIRYybB/z508OTef8C+fdZIFys1WLnswgYSgrHz/EGkyrP5rxYUQ7JlG3m+8IdLkZvjgY2x4+iZGIZ1zoTxcURgwcZ jaleensamantha@jaleensamantha-Latitude-3480"
 
+sateeshB:
+  state: present
+  sudo: true
+  password: "$6$KNK2QJB2ADjEnxrF$dsbubwpowF4jAXb6EJRv5hYFqXn7T/F88PY9QhVKqgJpr0BlPopjO8cKPgi2zoz3hLlhnUkEtSjhCfrXMhS820"
+  ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhcQ0Rt1AyJ0lodaT3XjDvkpSjR/awJrmEC3gnfGhtcd4g01CZSuoje+2o2m3p0WJ2xXzzBmv3y6tpdEUdEgDG1vV780Y+1K2QnmCNoNw+QgnSwRs8Gza/QQ/Y66+sizIUVCJzueknsHbRp1+gtylBpVi20RD48Gb1p//wMYw+IGmk7zNAsOFebK/A03t019V9ISffM0aFMUT3DDnfIlDnFQL6ZrNtBszg+68QcIRoHtkqA15G55A94C8jSMsUvTwhlnrlfLDhzZEpBhnHIkKHHV++EmpUud4zuCAZjhtrr8e7ePpZIxl9CD/Ils+i6u/QmlHu+0dRCrd/yXN+avFz3P8/BFs/X4oD/pncRgKDhF3NHF4sOrBu46QbTN0tE+T+9HQkS2Bl39NnL+5RHR/kaKgFkOlh4FuvPxwZKySWvsD/mGWau9Db5LuUnUcNp8Fooo7ODIl8+sAmWvlwGxNErjwCL6A/lHdhVQvluaXBAjVFJ0TJHLaNXzqZmVuG7JU= root@TI-LAP-763"
+
