@@ -33,5 +33,5 @@ users:
  sureshkannan:
     state: present
     sudo: true
-    password: "$6$AuZJWCEFygzwyezs$Hoj/5irFWTz1kURY7zXNtOLIQDLToSPKATzvgr8YynWn1Bh6k3XA.vDz.XzULuKKV0fsC9GIcDl8DZRCqMKmT0"
+    password: "$y$j9T$1O4HBeVJxQ5O3mSe4Fbg./$8xpr89JN6ESQZjpJnvK2RJ0Y9m4cPWXFnOw4z2sQMW/"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCpu4iNnS7OBB7u1kjlgXw42Zmz2AlWruW4WkhiNnJbSlR1spjCZeMALcAE5mWeBLjjIiHAl1t4VM81ehKipzqs3HL0Aq+O7z49jy/DRqmVXM3PrkWchqOGMDW8MROtVyoFYXWyVFSGBHhmp3znq9EMyK5by3vKljwCBF+sW+2SaS2uuW51EWggfmAfhcCqypQBxmSwJF4bllpooHcIxL7+uxE/hk8/xtaA2Ew5CA+Uk6i7geTy5eC+T+4HEvXGLbm6KfWvD2BNcAHE4kVCUhEOi/qxc/VsFRTeTkQqjdQlpr6H832Mazq4RvcR+AOOWM7z890F6shdIMcJl8m5Ujcbg2vWqL43VqTyvjutA2c89tpmCzHpnJtb+62tPArvfBrywiF1T0lHYbli1mKftIvIaOdaqP16bO0U+U6dDDagPkc6ItKUOQ/cWEX2DBDUoZ+Q4THcYZEJc2GdGNZ3/dFXeaDse1HMoPqIbeqULkx0KCFqLMlPKGsnVcYeJGhdO6agI4BPmOo0wT0ZU2CTNjwQbponI2l8QviwXaltTlOtZCQe2e3Xbl5OhFIeyqjIGvHl/fasV18+wPVf3EV88/dOc1cg/eAxLmWtw7N/Ui0FuMWmWAGoKv5N1eDiSTHXY7s8UphrWlzr5LZA+/4VYp/8bqjWThVvPQXojF+slyJ3yw== sureshkannan.sellamuthu@tarento.com"
