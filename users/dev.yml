@@ -167,7 +167,7 @@ users:
     sudo: true
     password: "$6$JPgT5b/0rfYhOIXS$9BIqAHgbUdXu83s0zExxix89nUe8szPSFgLSuxPoIXRkc0Zzd6Jaq5xsldcxJQgQdQjirKVlMkROF1KrRD1070"
     ssh_public_key : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXFnpmoM+W+SQKhaedUcDugN/7+NGwzwZezJGI0EOZsMX/dLndT4mSkIIMJtuQk0cVh8HHd62vMolGMtFIUQZbsAmRKtiZhgGaG8g1FhgIMTHcv+/jAJ9SBvW3kL5fKGemUK09TImyKwRDA9elAmlATShCKMjuMlrsshbMykHgu4OQZLX9San7/ti+NlV2TUxTIzZ/jl83DPHAlzurDMMBwbhhC+vqooGoW4dA0Q75r7M1/9MPV8qpMKsoqaU13QUcd+sPmiGSnmiaq/7lIRm+9HzzGTjxQK9SkN3Gc04idp7oTXnaufHL53ghzG0ZW+JuAa/0MtfjdgiA/MmU96UUSJ8Nf63LMekpaMDD8EKxjAeuCn3kWf7n4/izxJztCoG2YSAQ3we2qKimh63s3wehfFoZWOqFP5s52z6kLGHJB1ttPZz2rBZg/idxkQ+Sr7aAiFtBowd2Vyjb0YULQByd9LcefljJlN/MKcyVz3/3rLLSSXL2g0XjgR9Tptg69q9ACm97h203DVICtXcbdRs1Ez3bdtI3FLlDtJxJIdxz1/Ct34yCaJLPIYX6RQcC8VAVLbTtrT4y1kqSKUY5aTIG5Gh0nLpOEDI6VkKAktNhK1X+2AmdmomEL6N+JVcNioCQ/dJxLx9n92fweujMhQ1cVqrl/l5Crf2tUp3L32uohQ== ajay.vishwkarma@tarento.com"
-    
+
   sohithk:
     state: present
     sudo: true
@@ -177,5 +177,12 @@ users:
   vaibhavb:
     state: present
     sudo: true
-    password: 
+    password:
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHjrABp/9hjgROFvLvElHY2Dynbi6sX5J85OzHp7QZjJmaaMolSEn7fhw4IyXWVMfmx6uzo66vxE3DXtDxEUp1pCok9FbatMYXRtmvUKxE6FUkHnT68bhChqpSRqdtsK63qvo181TCAKAw3B60uLO67Q064Vp3mYxlgMiQt2LVqWUTeMJEzqMiZu4XClz8mBO1MW1VyaeuK1tuEDfiV0Mgw+qkLqTWFn1i7AQDFZaTdjb5sMdSQodiSbdI3RTXytyvhBatf5AhsuPPjDXEoPNKnqxR5C567H2rVg6W7PkG85JUQ893O1nj76aDMOPzWjco3DNgnrR/g1n2rOnKhLDAaLU5kyrdXw8OKJyYh8gQt/uFToTUSsp9W2rtEuOLJYAJRi5UoVHnzh/oOGIusxhF/VgDaRBN0GZklROSloOKuXHQ6WMrLe5TH0s5ZPZfU017FCgESM9D0ysKacKXkUR/X2YA8dO4eomzjS4q2fkre7MeqQEPfX6QSlIev7Q7lQU= vaibhavbhuva@TI-MAC-063.local"
+
+  sagarkrishna:
+    state: present
+    sudo: true
+    password: "$6$hT9vA/QHnzzaYS3s$7I75RPP4gOlDhOJtmvndVDXmXzZVsIGzoTAeROdmBXsAghVwhLDIu047bL6Q8KzqkRhh.2rTgnPrMAHjoOj4c0"
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDbBP376TXEKelLitYCw8yrELW+vVVDVYl7D7mxLQPMCatZ1b+xraEb8E4/qoEDX1mJRXIndCNbOhflwRowHqoBLGQb5G0C6f4tKG8Cg7iVxSH/eZTiUFiDx5oglfNh0nbBsN8MYFKELTLvHl6/f5RLlY/Q3CbuVula0LgkV5+o4ATxrHCALoUmL4UG3QILMsqPGSmA+PEyzrp3G/2mBi41plwXIe61ZCO26cjeT/xEAPMdv5pj/tfUo9joQVhPRdZfDsO8g+CRWEdFBhmELAON9uO80+PV8F958yVqEtmfb7LHtUK7gL0flukLyl9KNA/bbMBCNfobYG0p+h5N4GbagXBdujyodj6SHNY/oMQX4f5cKc15pBieCpsE7LrWJ5L4Dozp1i/HlvBqiHcC/lsxxSaXz+gC1Hhzuvlfe9pv7rwlIaia0uX2pZWseA7AMEpIrhblhQUb0yUAjE7xdFqCxXKEDMroE8/xqTgpRb8fICe2lO+STyfnSHLjzHOlyxjLPnhXFbz4J4np13FvSBJDYLwp+6s00w16UmJgxDJB0SMBrdUSHyBLZSPM7RPoNJhIafR1iLJZ1B97nTwRTACR+5KMDmlf2BY4KTm4toafXkuIVuPB/F8LWhmKsqpKTaf9GlQZIlVYokZ6/MnOlh1PsuNVqov+xfmYoS41W1YViQ== sagar.krishna@tarento.com"
+
