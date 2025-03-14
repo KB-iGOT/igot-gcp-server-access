@@ -20,6 +20,7 @@ jobs:
       matrix:
         users:
           - dev.yml
+          - qa.yml
           - sa.yml
           - super-admins.yml
           - noc.yml
