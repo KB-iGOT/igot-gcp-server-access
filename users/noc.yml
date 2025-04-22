@@ -1,29 +1,13 @@
 ---
 users:
-  nandk:
-    state: present
-    sudo: true
-    password: "$6$kZ.zlBWy9pBIMPn8$HfUfnzQLJ2o9EHc6AwBISzKbtww6wm286ODRWE51GwFYRL9vYuUsZgoehhl6cmwGnj04wfH5XHDFeWC/hJH62/"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9+cwkC8V2gtX2Dro06a1VkQKUhsWFmzQfsZqqIk9WbAo6ZJiqYgzwLEC0ZpGrwRuszN+fHMrfrLQKZgD26h5TYVYEPJ1Rlb+PRTs9mQT+FuJ75WIzjSSpOKmoadCNGYNF6sSOvJ4P2HFAPQt2BLZfGXPTPkrDZvEFJ82WgbV1a6xEmInyve7yivkGCwRRm8x2KEkkTIePCi8Kui++Hmcf1ZAsoCaWTQHfRHKPlBmiiREV/1VsVNePTAGNx253ceG6xcAx0GHtR9eC+yTmBTtaUjC+a3z3uN1wwzWfcrxitnZKaIaiRR2hIogXO0LXvZXAJyUAmHgtUu4qQ3O1XjmZc7xgqZYtTCinfSQHOK209EGborfsxznU+PKd53f4fq1hgLAfPRXWH+ICz91SGbvN5TYIQLmjm8P9gdj82uFKLJEKfv4EhQupmcspy9eYqqIYugX+cFLodCnG/Gu6BNDsekgv6SLX1nifxPPTFP1eim3rl5nBzBQ3S/GhXNcEfks= nandkishor.r@optit.india@OPT-LT-181"
-
-  arunk:
-    state: absent
-    sudo: true
-    password: "$6$zGQzVsS.fGcAZ0A9$bNETyeMwXLnQAnD7cO78vFClPQkCaruEyJ/U8wM2qgRjfay1n5hM6azbGtZKlc7y05nTg.C.NkDFNX9sEYQFI/"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCi5AuHtLHLWGgVKy47rdqQehzm4+RcW4BIHu4QEjD70tfoh4Q0AF7YoNmfLvf7C9HmI0SnGE2rybZW3traqCnkId6uetqRIY8cBqw32iv3yz99UkghLveT6E2g3ZpcwNXI5JBI8WWDWz2o2zhhmoJwQaE7Oa15OAmIJIa6XpZcUvkC4k0UfZ38/Ywq/TsMd07zQ52yMUW3yr4xTrDy8Q68k2yWwXGDvqtSymdJw2zE8ztNncdSnVKmTmhNDgvvZJrVEdVLVLnzbXF4DaVxmbPs/YDwX2hxvEI9umPYO/JigVXtpqFQ1IOTQ/C3mwKd2mc0GMqdrrzAq+nj330Sy6qQgcrOyT/vpxKevhonuUmNRNgT9bW03lOAsahqck0J+x0WNWawY0/xYtDUmpj+rOg0z3DVQdb/fX3vfaqD3+zUFffAqlqHDmFK5J8jWq40WtuJIQ9EpekNim2hGNljGtV38t2V9yKK0+3WlNT34qtniy0q9mcV/lChXkx22SlWOfk= arunkumar.p@optit.india@OPT-LT-189"
-
+  
   abubakark:
     state: present
     sudo: true
     password: "$6$6cXf4gfEZ$tr/dInnbz5yj6VGtM5CXcrNptlIrLxxfMLj38tPEQ9016l/sDudPWY5NyN6Mqu7a7CnABUh2OAMxDacikl1lm1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwzUML6dlrRAl0hCqK1ip/zlxXB8KdA3eVAflAxUHZzMdZ7/qyGEvnKREELJEPpToSro1U2Kk3vpbVt321RJeGEeP+iRbIrRcf5rpmULwRa18ed0OCAmaIEMy7S2LRJ6tSBMfR/rHTUAa2XDnuNmWY0gqXRE00R0YW+pY7wtWlvh0hFZ070OaOHlX7bQhhWCwNH7soGNNv50A9P1yKE9FMpi3oqCwdVfDaGlRIz9lhWWNrt7XaiQinuAxQAA2fjLaxIfs9zgjfwVHVXDNgcsvVbLSn5KwYOvMfaqR049tGKTOnzZH+K8/At3BcJ9c6mU/pAW3uBiYvRlNT85mlq8X ubuntu@Ubuntu"
 
-  naveenp:
-    state: present
-    sudo: true
-    password: "$6$LFn5qDhlptZgE3Og$kBQgOnN5IpQH1IiBTudDVNiITXzvhk4oxYC1wpdMTiNNSPxLPcEFtWwRl1jwKHRwp/DSV3/HaPceMet1v0YoQ/"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQClszQkmp0Yc7r2ZEqFXunbRqwJKoxdt7IRCA1oRspTWwSSe5iCkFbZ2J012JJ1CtC0GekDeZAgHlUqe4JN1pTPIk646JMgpRlXe/b/FjsvKx2vMo6r4IqEM4qo7TJR3CBbkRxOoC330MmCD/6CSzvhzuTuS+j+VI+mxwZ0lJjk8OYhBpAU2K74o2wuWG3PEeMWl0CMXzPDffIgOGpjhxJru7qwL6c6OAzoxR6t5JKUdIG1LfVN9kRexh4N6h8db5R3Zxj7lno/xk6tVFJbDXYZm5K8dgOGD/ilPXV31NGC5GbHoR5jxZj64BDu6rIxBWNXoUWf5Ok1+Yj/ZWBYCoWHttO0L5PUJ9BTMdzwwFBAgc0i/wMMcrFsS0LJwXnGCvGd/3VDGqUw6JPOdnOEUy4XtP5LJM2Q6f5bYSq2mh7dY6OGsT4kXEHE706uoWsuBFIJ/Kjjf3uWDFUAj4ZIGnLN/dVgXBQjWqeCDg3PtvUJAka9vfJw6bs1CzsGL3zGy+c= naveenprabhu.v@optit.india@OPT-LT-171"
-    sudo_no_password: true
+  
 
   ravindram:
     state: present
@@ -31,24 +15,7 @@ users:
     password: "$6$/a.ukcgtYlK/$Bxt1TPGEAGfrpKunZXodYlpFs70ip18XmIlCamlCID9QJKLzGQB.e7Zs96su/sjFHW7p7N7BRzII09f2HWKzF1"
     ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOyYw82rSAGzsDbZ/MU5rbVv0Fg6iUrYmAc5+Do55ubDQPNY32jaQonRDVsAQwarjG7Es6V5MhLijdMiOjMhhqu5mN2Wg4vijpof2RhO48W4IKBxb7Zm8SvBbHriG/+kv9bsGrARaPqHbuGIm1IRns25UTHwe5SFsWyd3r9Jk15kD99u2DTr6sf9X4W1fv5qdwI6GLUNEviiC+7oWA81WqJovxD8WSTclGolv4ZHxlg1GwODNXHGkW+fCxnx9zhj3678eMf4dcnhuJDUjvT9XH0GsQ1gmyUgumxlmQYO/xNIgwTTo8OdUHmbDkbS66YMe4Y8+hSDvcbiH0fyqpV9kR ubuntu@Ubuntu-vm"
 
-  sandeepr:
-    state: present
-    sudo: true
-    password: "$6$u2RM4Y4u/C1VOp5O$GmOFZP.98D8344/xLwAIwhTvk.uKdpP5lg8bviYi0Ab2V4F6nahVYsJrwQb9GJEVkrTSo2JeTwIzLcw0m/4.61"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1lK+n7I7f19yr/RpkTYwFs3dy6NC5M2KupfmZKK1GsZM/r2EHHzJSRZN+JvKDgFhhlkumvR+CL/lNPnM0uWZWuJQvasYguNWLwfg4MmVFbsbPOZKdFY71plUn5W1wsZoflNoFov9pwiLGNqRu04e6IBdr5BUUBTeVPJngozQqf5BHaKb21WwtxY1ETXj2RTmlKjfAu+dceNr5FM3v6i37BcHExEX9rnXg0dNk3xms1qCJGoBNJaekBwU+6SI7ZBjBQ3ti5CcX8wDLIB6pi923PLISfwrNkj4o2smPGSx2xe4GsQfYIhw8DUzdvl5DOtWDs5ORA+tVEC1maUg5BTY9jgMZtVIKLfmPIedQsrFKzLw4DmjlwTq1y51gpHGeXeBdbyDqxbe3ZjuSdYqhpG7lESReE9A/l3RFYV6U6Bhng+Ocq4gBvSkt9O1d8a5Q8iewHCp87ikuyeedqWvaTvebPQla/KUjJiGnINDCtZOiGyZJnMqSFpn0TStpnIPvyS8= sandeep.r@optit.india@optit-Latitude-7490"
-
-  nitins:
-    state: present
-    sudo: true
-    password: "$6$wlB1QmI4xXfThtrG$GPN2v8eBgY5.tJ0CXR3yTdiIORHTEM73SD0zVkAgvkPfwXl.CRcev0v1LBkjFNwTKRlnND3N5vvk9dKE7I49k1"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQChEl8NlKt4qMWSwOn7nP9vadOKa/epJwxZeSVOn3CXCnLixbyWTzp9wC4OIL/+PjPYuHH8hi2N532Z9zRPB8nqS9ha/I27S9wCPSm49EluizxSYm8j0YLlHgB6qJPSezSRUnKsPSIQTbz2RVo0PE5K29KpDM1ekJZxxWBBAY8iJTp3j/F5XgibHg7GXIJQ2tQsRSlxG1Qp7GkoSpJCfujdQLG54dH5/5nL5sNKiuiDs85rhxNIBGnsBD+BuEWtqHaYw8MGtNd+fCjC4WbO5jqNBIHLoriaFdzREL43BT1VYBhetZufl8usgHjiT6SvVbTWmSfM7FqlUCl33TE5JgOi9N04ixt5ii1q1xGAmOe7x9npOaqSebo+V81uw+gZhNeVnlWDSy2qKlWUCBvnNu4nfXwf6vXHf79xWCEeCEGC2+yv+DlGd0/DfMezW6ZwOt5wwDcTli5DOCTyWbvPROBYp5l5oOovJe0m9hukgCeUZcq2D5/t6+rOicRHk9esAVM= nithin.s@optit.india@OPT-LT-252"
-
-  samatha:
-    state: present
-    sudo: true
-    password: "$6$CZ4qwOl9NhK4SLvn$VW3a3LkD1pFBTG3MvNAhYswzS.xuOL2E0LKz4E6/UNms73san6Bia8vRZFfU7e7kCneHeVsEchwLxny1sfZM4."
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1B1dpUvJihJBJY+ZG+ATM9eWP633sW5Wx1OsOkmoWiJBfDytCZ5FNZX5MXWNQP4CnXrfq8A2a7p2hBuXNwO3QY+5a87UdBQ2FiIes+qMXyA+Zrhj8YTSwu8HksPH8HLSYQwShmmWtsAxeS4e5yDMQ5AIl8i6EzQ/fzszO+27B74L4TMBWsgDvcpXyTFVoivfByGFitCZM4ZQFcBniVMwjIKcCehrQLXjeSYhs4/94xm11Pf0mCZmDa+/oNbfIRYybB/z508OTef8C+fdZIFys1WLnswgYSgrHz/EGkyrP5rxYUQ7JlG3m+8IdLkZvjgY2x4+iZGIZ1zoTxcURgwcZ jaleensamantha@jaleensamantha-Latitude-3480"
-
+ 
 sateeshB:
   state: present
   sudo: true
